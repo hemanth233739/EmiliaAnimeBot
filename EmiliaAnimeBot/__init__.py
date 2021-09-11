@@ -92,7 +92,7 @@ if ENV:
     SPAMWATCH_API = os.environ.get('SPAMWATCH_API', None)
     BOT_ID = 1999577962
 
-    LOG_GROUP_ID =  -1001594133235
+    LOG_GROUP_ID = -1001594133235
     try:
         BL_CHATS = set(int(x) for x in os.environ.get('BL_CHATS', "").split())
     except ValueError:
@@ -189,7 +189,6 @@ DEV_USERS = list(DEV_USERS)
 WOLVES = list(WOLVES)
 DEMONS = list(DEMONS)
 TIGERS = list(TIGERS)
-
 
 # Load at end to ensure all prev variables have been set
 from EmiliaAnimeBot.modules.helper_funcs.handlers import (CustomCommandHandler,
