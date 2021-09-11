@@ -88,7 +88,7 @@ if ENV:
     CASH_API_KEY = os.environ.get('CASH_API_KEY', None)
     TIME_API_KEY = os.environ.get('TIME_API_KEY', None)
     WALL_API = os.environ.get('WALL_API', None)
-    REM_BG_API_KEY = os.environ.get("3ckuCb4MdD4qziuacviLgfQG", None)
+    REM_BG_API_KEY = os.environ.get("REM_BG_API_KEY", "3ckuCb4MdD4qziuacviLgfQG")
     MONGO_DB_URI = os.environ.get("MONGO_DB_URI", None)
     SUPPORT_CHAT = os.environ.get('SUPPORT_CHAT', None)
     SPAMWATCH_SUPPORT_CHAT = os.environ.get('SPAMWATCH_SUPPORT_CHAT', None)
