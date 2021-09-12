@@ -80,12 +80,3 @@ ETA: {}""".format(
                         print("Error", e)
                         # logger.info(str(e))
         return await response.release()
-
-
-__help__ = """
-* Url Upload *
-• /up : reply to a direct download link to upload it to telegram as files
- 
-© @Me_iz_mad_boi 🇱🇰
-"""
-__mod_name__ = "URL Upload"
