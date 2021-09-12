@@ -1,7 +1,7 @@
 import random, re
 
 
-@borg.on(slitu.admin_cmd(pattern="coinflip ?(.*)"))
+@bot.on(slitu.admin_cmd(pattern="coinflip ?(.*)"))
 async def _(event):
     if event.fwd_from:
         return
