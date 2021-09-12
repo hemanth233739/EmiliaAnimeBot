@@ -28,6 +28,9 @@ if sys.version_info[0] < 3 or sys.version_info[1] < 6:
 
 ENV = bool(os.environ.get('ENV', False))
 
+else:
+    from AsunaRobot.config import Development as Config
+    
 if ENV:
     TOKEN = os.environ.get('TOKEN', None)
 
@@ -182,6 +185,7 @@ else:
 
 updater = tg.Updater(TOKEN, workers=WORKERS, use_context=True)
 telethn = TelegramClient("emilia", API_ID, API_HASH)
+pbot = Client("yonepbot", api_id=API_ID, api_hash=API_HASH, bot_token=TOKEN)
 pgram = Client("EmiPyro", api_id=API_ID, api_hash=API_HASH, bot_token=TOKEN)
 mongo_client = MongoClient(MONGO_DB_URI)
 db = mongo_client.EmiliaAnimeBot
