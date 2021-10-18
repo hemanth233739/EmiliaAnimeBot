@@ -54,8 +54,8 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-Hey There! [👩‍💼](https://telegra.ph/file/d62ddd0f18b333b6aafff.jpg) 
-My name is *Yuuki*
+Hey There! [👩‍💼](https://telegra.ph/file/20601c16b0f3802c08a34.jpg) 
+My name is *chucky*
 I am an Anime Themed group management bot.
 You can find my list of available commands with *🔐Commands*   
 """
@@ -63,29 +63,29 @@ You can find my list of available commands with *🔐Commands*
 buttons = [
     [
         InlineKeyboardButton(
-            text="😍𝗦𝗨𝗠𝗠𝗢𝗡 𝗠𝗘😍",url="t.me/YuukiKonnoRobot?startgroup=true"
+            text="Add me to your groups",url="t.me/Chuckymusic_bot?startgroup=true"
         ),
     ],
     [
         InlineKeyboardButton(
-          text="🥰𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦🥰", callback_data="help_back"
+          text="Commands", callback_data="help_back"
         ),
     ],
    
          
     [
        InlineKeyboardButton(
-           text="💖𝗦𝗨𝗣𝗣𝗢𝗥𝗧💖", url="https://t.me/PigasusSupport"
+           text="Update", url="http://t.me/chuckmusicupdate"
          ),
     ],
         [
        InlineKeyboardButton(
-           text="💝𝗢𝗪𝗡𝗘𝗥💝", url="https://t.me/Me_Iz_Mad_Boi"
+           text="Friend", url="https://t.me/ValtAoiTheBot"
          ),
      ],
      [
         InlineKeyboardButton(
-          text="💖𝗨𝗣𝗗𝗔𝗧𝗘𝗦💖", url="https://t.me/PigasusUpdates"
+          text="Support", url="http://t.me/chuckmusicupdate"
         ),
        
      ],
