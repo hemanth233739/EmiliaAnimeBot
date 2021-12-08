@@ -21,7 +21,7 @@ from telegram.ext import (CallbackContext, CallbackQueryHandler, CommandHandler,
 from telegram.ext.dispatcher import DispatcherHandlerStop, run_async
 from telegram.utils.helpers import escape_markdown
 
-EMILIA_IMG = "https://telegra.ph/file/c13d2c450e047a095ea18.jpg"
+EMILIA_IMG = "https://telegra.ph/file/f82132e4e89b4267ca4d8.jpg"
 
 
 def get_readable_time(seconds: int) -> str:
@@ -57,10 +57,7 @@ PM_START_TEXT = """
 Hey There, I'm [Lugia](https://telegra.ph/file/f82132e4e89b4267ca4d8.jpg)
 *hello! {},*
 *I am an Anime themed advance group management bot with a lot of New Features.*
-┏━━━━━━━━━━━━━━━━
-┣ ☫ *Uptime: {}
-┣ ☫ {} users, across {} chats*.
-┗━━━━━━━━━━━━━━━━━
+
 ☫ Checkout The Help Buttons To Check My Abilities 𖤐𖤐
 """
 
@@ -97,7 +94,7 @@ buttons = [
 
 
 HELP_STRINGS = """
-`Hey there! My name is` [Yuuki!]("https://telegra.ph/file/72f58e5643fe6b39f5cca.jpg") 
+`Hey there! My name is` [Lugia]("https://telegra.ph/file/f82132e4e89b4267ca4d8.jpg") 
 I'm a Half Elf and help admins manage their groups with Some Powerful Features! \n`Have a look at the following for an idea of some of the things I can help you with.`"""
 
 DONATE_STRING = """
